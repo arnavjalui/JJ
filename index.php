@@ -1,148 +1,94 @@
 <!DOCTYPE html>
 <html lang="en-US">
    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width" />
-      <title>XYZ</title>           
-      <!-- CUSTOM STYLE -->
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-      <!-- LINK FOR MFG ICONS CSS -->
-      <link rel="stylesheet" href="CSS/mfglabs_iconset.css">
-       <style>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width" />
+	  <title>XYZ</title>           
+	  <!-- CUSTOM STYLE -->
+	  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	  
+	  <!-- MFG ICONS LINK -->
+	  <link rel="stylesheet" type="text/css" href="CSS/mfglabs_iconset.css">
 
-           body {
-               background:none repeat scroll 0 0 #d3d3d3;
-               font-size:100%;
-               font-family:"Open Sans",Arial,sans-serif;
-               color:#444;
-               -webkit-box-sizing:border-box;
-               -moz-box-sizing:border-box;
-               box-sizing:border-box;
-               margin:0;
-               overflow: auto;
-            }
-           .line {
-               margin:0 auto;
-               max-width:71.25em;
-               padding:0 0.625em;
-           }
-
-           header {
-	           border-bottom: 4px solid rgba(0, 40, 58, 0.53);
-               position: fixed;
-               width: 100%;
-               z-index: 10;
-           }
-           #topbar {
-               background: none repeat scroll 0 0 #012232;
-               padding: 0.3125em 0;
-               border-bottom: 1px solid #001925;
-           }
-           #topbar p {
-               color: #fff;
-               font-size: 0.75em;
-               opacity: 0.5;
-               margin: 0 -10em;
-               position: relative;
-               top: 2px;
-           }
-           #topbar p strong {
-               font-weight: 600;
-           }
-           nav {
-	           background: none repeat scroll 0 0 #00283a;
-           }
-           
-           .top-nav li a {
-	             border-top: 2px solid #00283a;
-               color: #fff;
-               font-size: 0.9em;
-	             font-weight: 600;
-               padding: 2.0em 1.5em;
-               text-transform: uppercase;
-               display:block;
-               color:#fff; 
-               transition: all 0.20s linear 0s;
-               -o-transition: all 0.20s linear 0s;
-               -ms-transition: all 0.20s linear 0s;
-               -moz-transition: all 0.20s linear 0s;
-               -webkit-transition: all 0.20s linear 0s;
-           }
-           .top-nav li a:hover, .top-nav li.active-item a {
-               background: none repeat scroll 0 0 #00283a;
-               border-top: 2px solid #92c500;
-               color: #92c500;
-               position: relative;
-           }
-           .line:after,nav:after,.center:after,.box:after {
-               clear:both;
-               content:".";
-               display:block;
-               height:0;
-               line-height:0;
-               visibility:hidden;
-           }
-           .top-nav ul {
-               padding:0;
-               margin-top: 0;
-               margin-bottom: 0;
-           }
-           .top-nav li {
-               float:left;
-               list-style:none outside none;
-               cursor:pointer;
-           }
-           p.logo {
-	           color: #fff;
-               font-size: 3em;
-               font-weight: 300;
-               position: relative;
-               text-transform: uppercase;
-               margin: 0.2em -2.6em 0.4em;
-           }
-           p.logo strong {
-               font-weight: 700;
-           }
-
-           .top-nav .active-item a {background:none repeat scroll 0 0 #999;}
-           .s-12{
-               float:left;
-               position:relative;
-           }
-           .right {float:right;}
-      </style>
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <!-- CSS LINK -->
+      <link rel="stylesheet" type="text/css" href="CSS/main_css.css">
+       <link rel="stylesheet" type="text/css" href="CSS/carousel.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    </head>
-<body class="size-1140">
-      <!-- TOP NAV-->
-      <header>
-        <div id="topbar">
-            <div class="line">
-                  <p>CONTACT US: <strong>0800 200 200</strong> | <strong>jahanvijasani.46@gmail.com</strong></p>
-            </div>  
-         </div> 
-         <nav>
-             <div class="line">
-                <div class="s-12">
-                  <p class="logo"><strong>One</strong>page</p>
-               </div>
-                
-                <div class="top-nav">
-                    <ul class="right">
-                        <li class="active-item"><a href="#carousel">Home</a></li>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#about-us">About Us</a></li>
-                        <li><a href="#our-work">Our Work</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-             </div>
-        </nav>
-     </header>
-  </body>
-</html>
     
-        
+   <body class="size-1140">
+	  <!-- TOP NAV-->
+	  <header>
+		<div id="topbar">
+			<div class="line">
+				  <p>CONTACT US: <strong>0800 200 200</strong> | <strong>jahanvijasani.46@gmail.com</strong></p>
+			</div>  
+		 </div> 
+		 <nav>
+			 <div class="line">
+				<div class="s-12">
+				  <p class="logo"><strong>One</strong>page</p>
+			   </div>
+				
+				<div class="top-nav">
+					<ul class="right">
+						<li class="active-item"><a href="#carousel">Home</a></li>
+						<li><a href="#features">Features</a></li>
+						<li><a href="#about-us">About Us</a></li>
+						<li><a href="#our-work">Our Work</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			 </div>
+		</nav>
+	 </header>
+		<div class="slideshow">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				  <li data-target="#myCarousel" data-slide-to="1"></li>
+				  <li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+	<!-- Wrapper for slides -->
+	<div id="car_pos" class="carousel-inner">
+	  <div class="item active">
+		<img src="https://www.hurtigruten.com/globalassets/photos/voyages/explorer/2018-19/europe/navigating-the-bays/antwerp_shutterstock_304289603.jpg?width=1600&height=800&transform=DownFill" alt="Los Angeles" style="width:100%;">
+			<div class="text">
+			  	<a href="#myCarousel" data-slide="prev"><i class="icon-chevron_left arrow"></i></a>
+			  	<a href="#myCarousel" data-slide="next"><i class="icon-chevron_right arrow"></i></a>
+			<h2>Responsive Home Page</h2>
+			<p>Acts of Kindness:A random act of kindness, no matter how small, can make a tremendous impact on someone else's life.</p>
+			</div>
+	  </div>
+		<div class="item">
+			<img src="https://www.hurtigruten.com/globalassets/photos/voyages/explorer/2018-19/europe/navigating-the-bays/antwerp_shutterstock_304289603.jpg?width=1600&height=800&transform=DownFill" alt="Los Angeles" style="width:100%;">     
+			<div class="text">
+			  	<a href="#myCarousel" data-slide="prev"><i class="icon-chevron_left arrow"></i></a>
+			  	<a href="#myCarousel" data-slide="next"><i class="icon-chevron_right arrow"></i></a>
+			<h2>Responsive Home Page</h2>
+			<p>Acts of Kindness:A random act of kindness, no matter how small, can make a tremendous impact on someone else's life.</p>
+			</div>
+		</div>
+	
+	  <div class="item">
+			<img src="https://www.hurtigruten.com/globalassets/photos/voyages/explorer/2018-19/europe/navigating-the-bays/antwerp_shutterstock_304289603.jpg?width=1600&height=800&transform=DownFill" alt="Los Angeles" style="width:100%;">
+	  		<div class="text">
+			  	<a href="#myCarousel" data-slide="prev"><i class="icon-chevron_left arrow"></i></a>
+			  	<a href="#myCarousel" data-slide="next"><i class="icon-chevron_right arrow"></i></a>
+			<h2>Responsive Home Page</h2>
+			<p>Acts of Kindness:A random act of kindness, no matter how small, can make a tremendous impact on someone else's life.</p>
+			</div>
+	  </div>
+	</div>
+
+	
+  </div>
+	</div>
+  
+
+	
+		
