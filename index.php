@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width" />
-      <title>JJ Business Website</title>           
+      <title>XYZ</title>           
       <!-- CUSTOM STYLE -->
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
       
@@ -41,7 +41,7 @@
                color: #fff;
                font-size: 0.75em;
                opacity: 0.5;
-               margin: 0;
+               margin: 0 -10em;
                position: relative;
                top: 2px;
            }
@@ -53,10 +53,10 @@
            }
            
            .top-nav li a {
-	           border-top: 2px solid #00283a;
+	             border-top: 2px solid #00283a;
                color: #fff;
-               font-size: 0.75em;
-	           font-weight: 600;
+               font-size: 0.9em;
+	             font-weight: 600;
                padding: 2.0em 1.5em;
                text-transform: uppercase;
                display:block;
@@ -93,11 +93,11 @@
            }
            p.logo {
 	           color: #fff;
-               font-size: 2.5em;
+               font-size: 3em;
                font-weight: 300;
                position: relative;
                text-transform: uppercase;
-               margin: 0.2em 0 0.4em;
+               margin: 0.2em -2.6em 0.4em;
            }
            p.logo strong {
                font-weight: 700;
@@ -110,6 +110,9 @@
            }
            .right {float:right;}
       </style>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    </head>
 <body class="size-1140">
       <!-- TOP NAV-->
@@ -138,8 +141,6 @@
              </div>
         </nav>
      </header>
-    <section>
-        
-    </section>
+    
     
         
