@@ -6,7 +6,8 @@
       <title>XYZ</title>           
       <!-- CUSTOM STYLE -->
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-      
+      <!-- LINK FOR MFG ICONS CSS -->
+      <link rel="stylesheet" href="CSS/mfglabs_iconset.css">
        <style>
 
            body {
@@ -141,6 +142,7 @@
              </div>
         </nav>
      </header>
-    
+  </body>
+</html>
     
         
