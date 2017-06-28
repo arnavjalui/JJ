@@ -9,19 +9,75 @@
         <link rel="stylesheet" type="text/css" href="CSS/mfglabs_iconset.css">
 
         <!-- CSS LINK -->
-        <link rel="stylesheet" type="text/css" href="CSS/main_css2.css">
         <link rel="stylesheet" href="CSS/carousel.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
         <!-- CUSTOM STYLE -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    
+        <link rel="stylesheet" type="text/css" href="CSS/main_css2.css">
 
+        <script type="text/javascript">
+            
+            var TxtType = function(el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
 
-        <style>
+        TxtType.prototype.tick = function() {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) { delta /= 2; }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+            }
+
+            setTimeout(function() {
+            that.tick();
+            }, delta);
+        };
+
+        window.onload = function() {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i=0; i<elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                  new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+
+        </script>
         
-        </style>
         
         
     </head>
@@ -30,13 +86,13 @@
             <header>
                 <div id="topbar">
                 <div class="line">
-                      <p>CONTACT US: <strong>9769983936</strong> | <strong>jahanvijasani.46@gmail.com</strong></p>
+                      <p>CONTACT US: <strong></strong> | <strong>.46@gmail.com</strong></p>
                 </div>  
                 </div> 
                 <nav>
                 <div class="line">
                    <div class="s-12 l-4">
-                      <p class="logo"><strong>Haresh </strong>Jasani</p>
+                      <p class="logo"><strong> </strong></p>
                    </div>
                    <div class="top-nav s-12 l-8">
                       <p class="nav-text">Custom menu text</p>
@@ -70,6 +126,11 @@
                     <div class="carousel-caption">
                         <h2>Responsive Home Page</h2>
                         <p>A random act of kindness, no matter how small, can make a tremendous impact on someone else's life.</p>
+                        <h1>
+                            <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Si.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+                                <span class="wrap"></span>
+                            </a>
+                        </h1>
                     </div>
                     </div>
 
@@ -78,6 +139,11 @@
                     <div class="carousel-caption">
                         <h2>Responsive Home Page</h2>
                         <p>A random act of kindness, no matter how small, can make a tremendous impact on someone else's life.</p>
+                        <h1>
+                            <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Si.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+                                <span class="wrap"></span>
+                            </a>
+                        </h1>
                     </div>
                     </div>
 
@@ -86,6 +152,11 @@
                     <div class="carousel-caption">
                         <h2>Responsive Home Page</h2>
                         <p>A random act of kindness, no matter how small, can make a tremendous impact on someone else's life.</p>
+                        <h1>
+                            <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Si.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+                                <span class="wrap"></span>
+                            </a>
+                        </h1>
                     </div>
                     </div>
                 </div>

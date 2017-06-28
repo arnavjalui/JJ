@@ -237,7 +237,6 @@
                 .s-10 {width:83.3333%;}
                 .s-11 {width:90%;}
                 .s-12 {width:100%}
-
             }
 <!--part_2-->
             nav {
@@ -265,7 +264,7 @@
             #topbar p strong {
                 font-weight: 600;
             }
-            p.logo {
+            nav p.logo {
                 margin-top: 0.6em;
                 color: #fff;
                 font-size: 2em;
@@ -308,11 +307,25 @@
                   }
                 
             }
-            @media screen and (max-width: 480px) {
-                  #topbar {
-                    line-height: 1.625em;
-                    text-align: center;
-                  }
+            @media screen and (max-width: 320px) {
+                #topbar {
+                    line-height: 0.6em;
+                    text-align: left;
+                    }
+                #topbar p{
+                    top: 0px;
+                    font-size:0.65em;
+                }
+                nav p.logo{
+                    
+                }
+                
+            }
+            @media screen and (min-width: 321px) and (max-width:480px) {
+                #topbar {
+                    line-height: 0.8em;
+                    text-align: left;
+                    }
             }
 
 
