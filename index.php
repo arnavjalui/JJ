@@ -9,18 +9,16 @@
         <link rel="stylesheet" type="text/css" href="CSS/mfglabs_iconset.css">
 
         <!-- CSS LINK -->
-        <link rel="stylesheet" type="text/css" href="CSS/main_css2.css">
         <link rel="stylesheet" href="CSS/carousel.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
         <!-- CUSTOM STYLE -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    
+    <link rel="stylesheet" type="text/css" href="CSS/main_css2.css">
 
 
         <style>
-        
         </style>
         
         
