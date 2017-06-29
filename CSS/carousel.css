@@ -4,13 +4,9 @@
 	max-width:100%;
 	height:auto
 }
-@media (min-width:320px){.carousel{width:100%px}}
-@media (min-width:768px){.carousel{width:100%}}
-@media (min-width:992px){.carousel{width:100%}}
-@media (min-width:1200px){.carousel{width:100%;}}
 .carousel{
-	position:absolute;
-	top:15%;
+	position: relative;
+    padding-top: 4em;
 }
 .carousel-inner{
 	position:relative;
@@ -35,14 +31,14 @@
 
 .carousel-inner>.item:hover h2{
 	background: none repeat scroll 0 0 rgba(146, 197, 0, 0.8);
-	-webkit-transform: translate3d(0,50px,0);
-	transform: translate3d(0,50px,0);
+	-webkit-transform: translate3d(0,100px,0);
+	transform: translate3d(0,100px,0);
 }
 
 .carousel-inner>.item:hover p{
 	opacity: 1;
-	-webkit-transform: translate3d(0,50px,0) scale(1);
-	transform: translate3d(0,50px,0) scale(1);
+	-webkit-transform: translate3d(0,100px,0) scale(1);
+	transform: translate3d(0,100px,0) scale(1);
 }
 @media all and (transform-3d),(-webkit-transform-3d){
 	.carousel-inner>.item{
@@ -224,9 +220,77 @@
 	margin-top:1px;
 	-webkit-transition: opacity 0.35s border 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,70px,0) ;
-	transform: translate3d(0,70px,0) ;
+	-webkit-transform: translate3d(0,200px,0) ;
+	transform: translate3d(0,200px,0) ;
 }
+
+@media screen and (max-width:320px){
+    .carousel-caption{
+        top: 5%;
+    }
+    .carousel-caption h2{
+        font-size:1em;
+        padding: 2px 4px;
+        -webkit-transition: -webkit-transform 0.35s background 0.35s;
+        transition: transform 0.35s background 0.35s;
+        -webkit-transform: translate3d(0,20px,0);
+        transform: translate3d(0,20px,0);
+    }
+    .carousel-caption p{
+        font-size:0.7em;
+        padding: 2px 4px;
+        -webkit-transition: opacity 0.35s border 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: translate3d(0,30px,0) ;
+        transform: translate3d(0,30px,0) ;   
+    }
+    .carousel-inner>.item:hover h2{
+        background: none repeat scroll 0 0 rgba(146, 197, 0, 0.8);
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+    .carousel-inner>.item:hover p{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0) scale(1);
+        transform: translate3d(0,0,0) scale(1);
+    }
+    .carousel-indicators li{width:6px;height:6px;} 
+    .carousel-indicators .active{width:8px; height:8px;}
+}
+
+@media screen and (min-width: 321px) and (max-width:480px){
+    .carousel-caption{
+        top:5%;
+    }
+    .carousel-caption h2{
+        font-size:1.5em;
+        padding: 3px 6px;
+    }
+    .carousel-caption p{
+        font-size:0.8em;
+        padding: 3px 6px;
+    }
+    .carousel-indicators li{width:7px;height:7px;} 
+    .carousel-indicators .active{width:9px; height:9px;}
+}
+
+@media screen and (min-width:481px) and (max-width: 768px){
+    .carousel{
+        padding-top:0;
+    }
+    .carousel-caption{
+        top:5%;
+    }
+    .carousel-caption h2{
+        font-size:2.2em;
+        padding: 4px 8px;
+    }
+    .carousel-caption p{
+        font-size:1em;
+        padding: 4px 8px;
+    }
+}
+
 @media screen and (min-width:768px){
 	.carousel-control .icon-chevron-left,.carousel-control .icon-chevron-right,.carousel-control .icon-next,.carousel-control .icon-prev{
 		width:30px;
@@ -240,64 +304,10 @@
 	.carousel-control .icon-chevron-right,.carousel-control .icon-next{
 		margin-right:-15px;
 	}
-	.carousel-caption{
-		right:20%;
-		left:20%;
-		padding-bottom:30px;
-	}
 	.carousel-indicators{
 		bottom:20px;
 	}
 }
-@media (max-width:767px){.visible-xs{display:block!important}table.visible-xs{display:table!important}tr.visible-xs{display:table-row!important}td.visible-xs,th.visible-xs{display:table-cell!important}}
 
-@media (max-width:767px){.visible-xs-block{display:block!important} .carousel-caption h2{font-size:1em;padding: 3px 6px;} .carousel-caption p{font-size:0.8em;padding:3px 6px;} .carousel-indicators li{width:6px;height:6px;} .carousel-indicators .active{width:8px; height:8px;}}
 
-@media (max-width:767px){.visible-xs-inline{display:inline!important}}
 
-@media (max-width:767px){.visible-xs-inline-block{display:inline-block!important}}
-
-@media (min-width:768px) and (max-width:991px){.visible-sm{display:block!important}table.visible-sm{display:table!important}tr.visible-sm{display:table-row!important}td.visible-sm,th.visible-sm{display:table-cell!important}}
-
-@media (min-width:768px) and (max-width:991px){.visible-sm-block{display:block!important}}
-
-@media (min-width:768px) and (max-width:991px){.visible-sm-inline{display:inline!important}}
-
-@media (min-width:768px) and (max-width:991px){.visible-sm-inline-block{display:inline-block!important}}
-
-@media (min-width:992px) and (max-width:1199px){.visible-md{display:block!important}table.visible-md{display:table!important}tr.visible-md{display:table-row!important}td.visible-md,th.visible-md{display:table-cell!important}}
-
-@media (min-width:992px) and (max-width:1199px){.visible-md-block{display:block!important}}
-
-@media (min-width:992px) and (max-width:1199px){.visible-md-inline{display:inline!important}}
-
-@media (min-width:992px) and (max-width:1199px){.visible-md-inline-block{display:inline-block!important}}
-
-@media (min-width:1200px){.visible-lg{display:block!important}table.visible-lg{display:table!important}tr.visible-lg{display:table-row!important}td.visible-lg,th.visible-lg{display:table-cell!important}}
-
-@media (min-width:1200px){.visible-lg-block{display:block!important}}
-
-@media (min-width:1200px){.visible-lg-inline{display:inline!important}}
-
-@media (min-width:1200px){.visible-lg-inline-block{display:inline-block!important}}
-
-@media (max-width:767px){.hidden-xs{display:none!important}}
-
-@media (min-width:768px) and (max-width:991px){.hidden-sm{display:none!important}}
-
-@media (min-width:992px) and (max-width:1199px){.hidden-md{display:none!important}}
-
-@media (min-width:1200px){.hidden-lg{display:none!important}}
-
-.visible-print{display:none!important}
-
-@media print{.visible-print{display:block!important}table.visible-print{display:table!important}tr.visible-print{display:table-row!important}
-td.visible-print,th.visible-print{display:table-cell!important}}
-
-.visible-print-block{display:none!important}
-
-@media print{.visible-print-block{display:block!important}}.visible-print-inline{display:none!important}@media print{.visible-print-inline{display:inline!important}}.visible-print-inline-block{display:none!important}
-
-@media print{.visible-print-inline-block{display:inline-block!important}}
-
-@media print{.hidden-print{display:none!important}}
