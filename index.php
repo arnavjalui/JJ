@@ -28,12 +28,14 @@
             <header>
                 <div id="topbar">
                 <div class="line">
+                    <div class="m-12">
                       <p>CONTACT US: <strong>9769983936</strong> | <strong>jahanvijasani.46@gmail.com</strong></p>
+                    </div>
                 </div>  
                 </div> 
                 <nav>
                 <div class="line">
-                   <div class="s-12 l-4">
+                   <div class="m-8 s-12 l-4">
                       <p class="logo"><strong>Haresh </strong>Jasani</p>
                    </div>
                    <div class="top-nav s-12 l-8">
@@ -91,11 +93,9 @@
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                 <span class="glyphicon icon-chevron-left"><i class="icon-chevron_left"></i></span>
-                <span class="sr-only">Previous</span>
             </a>
             <a class="right carousel-control" href="#myCarousel" data-slide="next">
                 <span class="glyphicon icon-chevron-right"><i class="icon-chevron_right"></i></span>
-                <span class="sr-only">Next</span>
             </a>
             </div>
         <!--CAROUSEL END-->    
