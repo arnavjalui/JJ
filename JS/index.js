@@ -8,3 +8,4 @@ navLinks.addEventListener('click', toggle);
 function toggle() {
 	narrowLinks.classList.toggle('hidden');
 };
+

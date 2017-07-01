@@ -52,13 +52,14 @@ nav .navNarrow .narrowLinks li{
 nav .navNarrow{display: none;}
 .hidden{display: none;}
 a.white-btn {
-    border: 1px solid #fff;
-    border-radius: 3px;
+    border: 2px solid #fff;
+    border-radius: 2.5em;
     color: #fff;
     display: block;
+    margin-top: 1.5em;
     font-size: 1em;
-    margin-top: 1.25em;
-    padding: 0.625em 1.25em;
+    text-transform: uppercase;
+    padding: 0.8em 1em 0.8em 1em;
     text-decoration: none;
     transition: all 0.20s linear 0s;
 	-o-transition: all 0.20s linear 0s;
@@ -67,7 +68,7 @@ a.white-btn {
 	-webkit-transition: all 0.20s linear 0s;
 }
 a.white-btn:hover {
-	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+	background: none repeat scroll 0 0 rgba(146, 197, 0, 0.8);
 }
 
 .s-1, .s-2,.s-five,.s-3, .s-4, .s-5, .s-6, .s-7, .s-8, .s-9, .s-10, .s-11, .s-12, .l-1, .l-2, .l-five, .l-3, .l-4, .l-5, .l-6, .l-7, .l-8, .l-9, .l-10, .l-11, .l-12 {
@@ -186,24 +187,22 @@ nav .navNarrow .narrowLinks a {
     padding: 2.5em;
     padding-bottom: 2em;
     text-align: center;
+    color: #fff;
     border-top: 5px solid rgba(0, 18, 25,0.6);
     line-height: 1em;
 }
 #first-block h1 {
-    color: #fff;
-    font-family:serif;
-    font-size: 3.5em;
-    font-weight: 300;
+    font-size: 3.7em;
+    font-weight: 500;
     margin-top: 0;
 }
 #first-block h2 {
-    font-size: 1.8em;
-    color: #fff;
-    font-weight: 500;
+    font-size: 2em;
+    font-weight: 300;
 }
-#first block p{
-    color: #6c7c84;
-	font-size: 0.85em;
+#first-block p{
+	font-size: 1.1em;
+    padding-top: 0.5em;
 }
 
 @media screen and (max-width: 320px) {
@@ -382,7 +381,7 @@ nav .navNarrow .narrowLinks a {
 .center {
   float:none;
   margin:0 auto;
-  display:block;
+display: block;
 }
 
     
