@@ -220,7 +220,7 @@
 	margin-top:1px;
 	-webkit-transition: opacity 0.35s border 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,200px,0) ;
+	-webkit-transform: translate3d(0,20px,0) ;
 	transform: translate3d(0,200px,0) ;
 }
 
@@ -260,15 +260,33 @@
 
 @media screen and (min-width: 321px) and (max-width:480px){
     .carousel-caption{
-        top:5%;
+        top:10%;
     }
     .carousel-caption h2{
-        font-size:1.5em;
-        padding: 3px 6px;
+        font-size:1.2em;
+        padding: 2px 4px;
+        -webkit-transition: -webkit-transform 0.35s background 0.35s;
+        transition: transform 0.35s background 0.35s;
+        -webkit-transform: translate3d(0,20px,0);
+        transform: translate3d(0,20px,0);
     }
     .carousel-caption p{
-        font-size:0.8em;
-        padding: 3px 6px;
+        font-size:0.7em;
+        padding: 2px 4px;
+        -webkit-transition: opacity 0.35s border 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: translate3d(0,30px,0) ;
+        transform: translate3d(0,30px,0) ;   
+    }
+    .carousel-inner>.item:hover h2{
+        background: none repeat scroll 0 0 rgba(146, 197, 0, 0.8);
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+    .carousel-inner>.item:hover p{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0) scale(1);
+        transform: translate3d(0,0,0) scale(1);
     }
     .carousel-indicators li{width:7px;height:7px;} 
     .carousel-indicators .active{width:9px; height:9px;}
@@ -282,16 +300,26 @@
         top:5%;
     }
     .carousel-caption h2{
-        font-size:2.2em;
+        font-size:1.7em;
         padding: 4px 8px;
     }
     .carousel-caption p{
-        font-size:1em;
+        font-size:0.8em;
         padding: 4px 8px;
+    }
+    .carousel-inner>.item:hover h2{
+        background: none repeat scroll 0 0 rgba(146, 197, 0, 0.8);
+        -webkit-transform: translate3d(0,60px,0);
+        transform: translate3d(0,60px,0);
+    }
+    .carousel-inner>.item:hover p{
+        opacity: 1;
+        -webkit-transform: translate3d(0,60px,0) scale(1);
+        transform: translate3d(0,60px,0) scale(1);
     }
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:769px){
 	.carousel-control .icon-chevron-left,.carousel-control .icon-chevron-right,.carousel-control .icon-next,.carousel-control .icon-prev{
 		width:30px;
 		height:30px;
