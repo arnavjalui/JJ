@@ -1,2 +1,1 @@
-# JJ Project README
-JJ Business Website
+# hj-business-website
