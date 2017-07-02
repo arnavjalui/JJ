@@ -51,6 +51,53 @@ a.white-btn {
 a.white-btn:hover {
   background: none repeat scroll 0 0 rgba(146, 197, 0, 0.8);
 }
+#about-us {
+    background: none repeat scroll 0 0 #fff;
+    height: 25em;
+  }
+
+#about-us h4 {
+  padding-top: 2em;
+  padding-bottom: 0;
+  font-size: 1.7em;
+}
+hr.short{
+  border: none;
+  margin-top: -1.25em;
+  float: left;
+  height: 0.160em;
+  width: 4.375em;
+  background-color: #92c500;
+}
+#about-us p {
+  padding-right: 3em;
+  color: #888a8c;
+  text-align: justify;
+}
+
+#second-block {
+    position: relative;
+    width: 100%;
+}
+#second-block .numblock {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border-left: 1px solid  rgba(255, 255, 255, 0.5);
+    min-height: 12em;
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-color: #92c500;
+    line-height: 1.5em;
+}
+
+#second-block .numblock h1 {
+    font-size: 4.5em;
+    font-weight: 100;
+}
+
+
 .s-1, .s-2,.s-five,.s-3, .s-4, .s-5, .s-6, .s-7, .s-8, .s-9, .s-10, .s-11, .s-12, .l-1, .l-2, .l-five, .l-3, .l-4, .l-5, .l-6, .l-7, .l-8, .l-9, .l-10, .l-11, .l-12 {
   float:left;
   position:relative;
@@ -92,7 +139,7 @@ header {
   width: 100%;
   height: 50px;
   padding: 0;
-  box-shadow: 0 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px rgba(0, 0, 0, 0.5);
   background-color: #00283a;
 }
 header h1 {
@@ -279,9 +326,7 @@ header *, header *:before, header *:after {
   .m-10 {width:83.3333%;}
   .m-11 {width:90%;}
   .m-12 {width:100%;}
-  #topbar{
-    display: none;
-  }
+
   header h1{
     color: green;
     font-size: 1.5em;
