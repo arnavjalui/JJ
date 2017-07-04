@@ -53,18 +53,19 @@ a.white-btn:hover {
 }
 #about-us {
     background: none repeat scroll 0 0 #fff;
-    height: 25em;
-  }
+    height: 23em;
+}
 
 #about-us h4 {
-  padding-top: 2em;
+  padding-top: 2.3em;
   padding-bottom: 0;
   font-size: 1.7em;
+  text-align: center;
 }
 hr.short{
   border: none;
   margin-top: -1.25em;
-  float: left;
+  float: none;
   height: 0.160em;
   width: 4.375em;
   background-color: #92c500;
@@ -72,7 +73,7 @@ hr.short{
 #about-us p {
   padding-right: 3em;
   color: #888a8c;
-  text-align: justify;
+  text-align: center;
 }
 
 #second-block {
@@ -83,18 +84,22 @@ hr.short{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    border-left: 1px solid  rgba(255, 255, 255, 0.5);
-    min-height: 12em;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.5);
+    height: 12em;
     display: block;
     text-align: center;
     color: #fff;
     background-color: #92c500;
-    line-height: 1.5em;
+    line-height: 1em;
 }
 
 #second-block .numblock h1 {
     font-size: 4.5em;
     font-weight: 100;
+}
+
+#second-block .numblock p{
+  font-size: 3em;
 }
 
 
@@ -314,18 +319,18 @@ header *, header *:before, header *:after {
 
 @media screen and (max-width: 320px) {
   .size-1140 {max-width:320px;}
-  .m-1 {width:8.3333%;}
-  .m-2 {width:16.6666%;}
-  .m-3 {width:25%;}
-  .m-4 {width:33.3333%;}
-  .m-5 {width:41.6666%;}
-  .m-6 {width:50%;}
-  .m-7 {width:58.3333%;}
-  .m-8 {width:66.6666%;}
-  .m-9 {width:75%;}
-  .m-10 {width:83.3333%;}
-  .m-11 {width:90%;}
-  .m-12 {width:100%;}
+  .s-1 {width:8.3333%;}
+  .s-2 {width:16.6666%;}
+  .s-3 {width:25%;}
+  .s-4 {width:33.3333%;}
+  .s-5 {width:41.6666%;}
+  .s-6 {width:50%;}
+  .s-7 {width:58.3333%;}
+  .s-8 {width:66.6666%;}
+  .s-9 {width:75%;}
+  .s-10 {width:83.3333%;}
+  .s-11 {width:90%;}
+  .s-12 {width:100%;}
 
   header h1{
     color: green;
@@ -369,6 +374,33 @@ header *, header *:before, header *:after {
   }
   #first-block p {
     font-size: 0.8em;
+  }
+  #about-us {
+    height: 48em;
+  }
+  #about-us h4 {
+    padding-top: 0.4em;
+    font-size: 1.1em;
+  }
+  hr.short{
+    margin-top: -1em;
+    height: 0.12em;
+    width: 4em;
+  }
+  #about-us p {
+    text-align: center;
+    padding-right: 0;
+    font-size: 0.85em;
+  }
+  #second-block .numblock {
+    height: 7em;
+  }
+  #second-block .numblock h1 {
+    font-size: 3em;
+    font-weight: 100;
+  }
+  #second-block .numblock p{
+    font-size: 0.9em;
   }
 }
 
@@ -452,6 +484,32 @@ header *, header *:before, header *:after {
   #first-block p {
     font-size: 0.8em;
   }
+  #about-us {
+    height: 47em;
+  }
+  #about-us h4 {
+    padding-top: 1em;
+    font-size: 1.3em;
+  }
+  hr.short{
+    margin-top: -1em;
+    height: 0.14em;
+  }
+  #about-us p {
+    padding-right: 0;
+    font-size: 0.9em;
+  }
+  #second-block .numblock {
+    height: 9em;
+  }
+
+  #second-block .numblock h1 {
+    font-size: 3.5em;
+    font-weight: 100;
+  }
+  #second-block .numblock p{
+    font-size: 1em;
+  }
 }
 
 @media screen and (min-width:481px) and (max-width: 768px) {
@@ -528,6 +586,30 @@ header *, header *:before, header *:after {
   #first-block p {
     font-size: 0.8em;
   }
+  #about-us {
+    height: 42em;
+  }
+  #about-us h4 {
+    padding-top: 0.8em;
+    font-size: 1.3em;
+  }
+  hr.short{
+    margin-top: -1em;
+    height: 0.14em;
+  }
+  #about-us p {
+    padding-right: 0;
+    font-size: 0.9em;
+  }
+  #second-block .numblock {
+    height: 9em;
+  }
+  #second-block .numblock h1 {
+    font-size: 3.7em;
+  }
+  #second-block .numblock p{
+    font-size: 1em;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -549,7 +631,29 @@ header *, header *:before, header *:after {
   header nav ul li a{
     border-top: 1px solid rgba(255,255,255,0.2);
     padding: 0.8em 0;
-  }   
+  }  
+  #about-us h4 {
+    text-align: left;
+    font-size: 1.5em;
+  }
+  hr.short{
+    float: left;
+    height: 0.15em;
+  }
+  #about-us p {
+    font-size: 0.9em;
+    text-align: justify;
+  }
+  #second-block .numblock {
+    border-left: 1px solid  rgba(255, 255, 255, 0.5);
+    height: 10em;
+  }
+  #second-block .numblock h1 {
+    font-size: 3.7em;
+  }
+  #second-block .numblock p{
+    font-size: 0.9em;
+  } 
 }
 @media only screen and (min-width: 880px){
   header h1{

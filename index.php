@@ -103,17 +103,17 @@
         <!--ABOUT-US-->
         <div id="about-us">
             <div class="line">
-                <div class="l-4">
+                <div class="s-12 m-12  l-4">
                     <h4>OUR MISSION</h4>
                     <hr class="short">
                     <p><br>We aim to make clients happy by selling the best products at the best prices, in a friendly, fun atmosphere. Our rating has remained at 100% with excellent and positive feedbacks. We are constantly adding new products.</p>
                 </div>
-                <div class="l-4">
+                <div class="s-12 m-12 l-4">
                     <h4>OUR MISSION</h4>
                     <hr class="short">
                     <p><br>We aim to make clients happy by selling the best products at the best prices, in a friendly, fun atmosphere. Our rating has remained at 100% with excellent and positive feedbacks. We are constantly adding new products.</p>
                 </div>
-                <div class="l-4">
+                <div class="s-12 m-12 l-4">
                     <h4>OUR MISSION</h4>
                     <hr class="short">
                     <p><br>We aim to make clients happy by selling the best products at the best prices, in a friendly, fun atmosphere. Our rating has remained at 100% with excellent and positive feedbacks. We are constantly adding new products.</p>
@@ -124,10 +124,10 @@
 
         <!--SECOND BLOCK-->
         <div id="second-block">
-            <div class="l-3 numblock"><h1>10</h1><p>YEARS OF EXPERIENCE</p></div>
-            <div class="l-3 numblock"><h1>7</h1><p>BUILT HOUSING ESTATES</p></div>
-            <div class="l-3 numblock"><h1>26</h1><p>QUALIFIED SPECIALISTS</p></div>
-            <div class="l-3 numblock"><h1>12</h1><p>BUILT AND ENHANCED DESIGNS</p></div>
+            <div class="s-12 m-12 l-3 numblock"><h1>10</h1><p>YEARS OF EXPERIENCE</p></div>
+            <div class="s-12 m-12 l-3 numblock"><h1>7</h1><p>BUILT HOUSING ESTATES</p></div>
+            <div class="s-12 m-12 l-3 numblock"><h1>26</h1><p>QUALIFIED SPECIALISTS</p></div>
+            <div class="s-12 m-12 l-3 numblock"><h1>12</h1><p>BUILT AND ENHANCED DESIGNS</p></div>
         </div>
         <!--SECOND BLOCK END-->
 
