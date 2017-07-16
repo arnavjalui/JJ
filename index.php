@@ -16,31 +16,18 @@
 
 		<!-- CUSTOM STYLE -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+        <!-- GOOGLE FONTS IMPORT -->
+        <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">    <!-- Font Option 1 -> Advent Pro-->
+        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">    <!-- Font Option 2 -> Dosis , if option 1 does not look good-->
+        <link href="https://fonts.googleapis.com/css?family=Forum" rel="stylesheet">
+
+
 		<style>
 		</style>
 	</head>
-	<body class="size-1140">
-		<!--TOP NAVBAR-->
-		<header>
-			<div class="nav-container">
-				<a href="#" class="logo"><h1><strong>Haresh</strong> Jasani.</h1></a>
-				<a class="navicon-button">
-					<div class="navicon"></div>
-				</a>
-				<nav>
-					<ul>
-						<li class="active"><a href="#">Home</a></li>
-						<li class="next-to-active"><a href="#">About Us</a></li>
-						<li><a href="#">Our Work</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Contact Us</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-		<script src="js/header.js"></script>
-		<!--TOP NAVBAR END-->
+    <!-- PHP INCLUDE STATEMENT FOR HEADER -->
+	<?php include('header.php') ?>
 
 		<!--CAROUSEL-->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -106,17 +93,17 @@
                 <div class="s-12 m-12  l-4">
                     <h4>OUR MISSION</h4>
                     <hr class="short">
-                    <p><br>We aim to make clients happy by selling the best products at the best prices, in a friendly, fun atmosphere. Our rating has remained at 100% with excellent and positive feedbacks. We are constantly adding new products.</p>
+                    <p style="font-size: 1.1em;"><br>We aim to make clients happy by selling the best products at the best prices, in a friendly, fun atmosphere. Our rating has remained at 100% with excellent and positive feedbacks. We are constantly adding new products.</p>
                 </div>
                 <div class="s-12 m-12 l-4">
                     <h4>OUR MISSION</h4>
                     <hr class="short">
-                    <p><br>We aim to make clients happy by selling the best products at the best prices, in a friendly, fun atmosphere. Our rating has remained at 100% with excellent and positive feedbacks. We are constantly adding new products.</p>
+                    <p style="font-size: 1.1em;"><br>We aim to make clients happy by selling the best products at the best prices, in a friendly, fun atmosphere. Our rating has remained at 100% with excellent and positive feedbacks. We are constantly adding new products.</p>
                 </div>
                 <div class="s-12 m-12 l-4">
                     <h4>OUR MISSION</h4>
                     <hr class="short">
-                    <p><br>We aim to make clients happy by selling the best products at the best prices, in a friendly, fun atmosphere. Our rating has remained at 100% with excellent and positive feedbacks. We are constantly adding new products.</p>
+                    <p style="font-size: 1.1em;"><br>We aim to make clients happy by selling the best products at the best prices, in a friendly, fun atmosphere. Our rating has remained at 100% with excellent and positive feedbacks. We are constantly adding new products.</p>
                 </div>
             </div>
         </div>
@@ -124,53 +111,12 @@
 
         <!--SECOND BLOCK-->
         <div id="second-block">
-            <div class="s-12 m-12 l-3 numblock"><h1>10</h1><p>YEARS OF EXPERIENCE</p></div>
-            <div class="s-12 m-12 l-3 numblock"><h1>7</h1><p>BUILT HOUSING ESTATES</p></div>
-            <div class="s-12 m-12 l-3 numblock"><h1>26</h1><p>QUALIFIED SPECIALISTS</p></div>
-            <div class="s-12 m-12 l-3 numblock"><h1>12</h1><p>BUILT AND ENHANCED DESIGNS</p></div>
+            <div class="s-12 m-12 l-3 numblock"><h1>10</h1><p style="font-size: 1.1em;">YEARS OF EXPERIENCE</p></div>
+            <div class="s-12 m-12 l-3 numblock"><h1>7</h1><p style="font-size: 1.1em;">BUILT HOUSING ESTATES</p></div>
+            <div class="s-12 m-12 l-3 numblock"><h1>26</h1><p style="font-size: 1.1em;">QUALIFIED SPECIALISTS</p></div>
+            <div class="s-12 m-12 l-3 numblock"><h1>12</h1><p style="font-size: 1.1em;">BUILT AND ENHANCED DESIGNS</p></div>
         </div>
         <!--SECOND BLOCK END-->
 
-        <!--FOOTER-->
-        <footer>
-        		<div class="footer-text">
-	        		<div class="l-3">
-	        			<h2>About Us</h2>
-	        			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p><br>
-	        			<div class="contact-footer">
-		        			<h2>Contact Us</h2>
-		        			<li>Phone: 9769983936</li>
-		        			<li>Email: jahanvijasani@gmail.com</li>
-	        			</div>
-	        		</div>
-	        		<div class="l-2">
-	        			<h2>Popular Links</h2>
-	        			<div class="footer-links">
-	        				<li><i class="icon-play"></i><a href="#">Home</a></li>
-	        				<li><i class="icon-play"></i><a href="#">About Us</a></li>
-	        				<li><i class="icon-play"></i><a href="#">Our Work</a></li>
-	        				<li><i class="icon-play"></i><a href="#">Services</a></li>
-	        			</div>
-	        		</div>
-	        		<div class="l-3">
-	        			<h2>Recent Projects</h2>
-	        			<p>Project-1</p>
-	        			<p>Project-2</p>
-	        			<p>Project-3</p>
-	        			<p>Project-4</p>
-	        			<p>Project-5</p>
-	        			<p>Project-6</p>
-	        			<h2>See All Our Projects</h2>
-	        		</div>
-	        		<div class="l-4">
-	        			<h2>Location</h2>
-						<div id="map-block">  	  
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15082.402679591443!2d72.89876327023337!3d19.081287193356143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c631dcb145d9%3A0xed2e7c2011a11141!2sGhatkopar+East%2C+Mumbai%2C+Maharashtra!5e0!3m2!1sen!2sin!4v1499403901430" width="350" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-						</div>
-	        		</div>
-        		</div>
-        </footer>
-        <!--FOOTER END-->
-
-	</body>
-</html>
+        <!-- PHP INCLUDE STATEMENT FOR FOOTER -->
+        <?php include('footer.php') ?>
