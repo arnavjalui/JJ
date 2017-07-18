@@ -38,7 +38,7 @@ a.white-btn {
   color: #fff;
   display: block;
   margin-top: 1.5em;
-  font-size: 1em;
+  font-size: 1.1em;
   text-transform: uppercase;
   padding: 0.8em 1em 0.8em 1em;
   text-decoration: none;
@@ -58,7 +58,6 @@ a.white-btn:hover {
 #about-us h4 {
   padding-top: 2.3em;
   padding-bottom: 0;
-  font-size: 1.7em;
   text-align: center;
 }
 hr.short{
@@ -69,7 +68,6 @@ hr.short{
   width: 4.375em;
   background-color: #92c500;
 }
-
 #about-us p {
   padding-right: 3em;
   color: #888a8c;
@@ -193,7 +191,7 @@ header {
 }
 header h1 {
   margin: 0;
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 500;
   text-transform: uppercase;
   color: #fff;
@@ -313,7 +311,7 @@ header nav ul li a {
   display: block;
   padding: 0.75em 0;
   font-size: 1em;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
@@ -345,19 +343,19 @@ header *, header *:before, header *:after {
   text-align: center;
   color: #fff;
   border-top: 5px solid rgba(0, 18, 25,0.6);
-  line-height: 1em;
+  line-height: 1.3em;
 }
 #first-block h1 {
-  font-size: 3.7em;
+  font-size: 3.5em;
   font-weight: 500;
   margin-top: 0;
 }
 #first-block h2 {
-  font-size: 2em;
+  font-size: 2.1em;
   font-weight: 300;
 }
 #first-block p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   padding-top: 0.5em;
 }
 
@@ -378,10 +376,10 @@ header *, header *:before, header *:after {
 
   header h1{
     color: green;
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
   header .logo{
-    padding-top: 3px;
+    padding-top: 0.5em;
   }
   header .navicon-button .navicon{
     width: 20px;
@@ -405,6 +403,7 @@ header *, header *:before, header *:after {
   }
   #first-block{
     padding: 1em;
+    line-height: 1em;
   }
   a.white-btn{
     font-size:0.8em;
@@ -413,14 +412,14 @@ header *, header *:before, header *:after {
     font-size: 2.2em;
   }
   #first-block h2{
-    font-size: 1em;
+    font-size: 0.95em;
     line-height: 1.1em;
   }
   #first-block p {
     font-size: 0.8em;
   }
   #about-us {
-    height: 48em;
+    height: 37em;
   }
   #about-us h4 {
     padding-top: 0.4em;
@@ -444,7 +443,7 @@ header *, header *:before, header *:after {
     font-weight: 100;
   }
   #second-block .numblock p{
-    font-size: 0.9em;
+    font-size: 0.95em;
   }
 }
 
@@ -492,6 +491,9 @@ header *, header *:before, header *:after {
     color: yellow;
     font-size: 1.9em;
   }
+  header .logo {
+    padding-top: 0.3em;
+  }
   header .navicon-button .navicon{
     width: 25px;
     height: 2px;  
@@ -523,13 +525,12 @@ header *, header *:before, header *:after {
   }
   #first-block h2{
     font-size: 1.2em;
-    line-height: 1.1em;
   }
   #first-block p {
     font-size: 0.8em;
   }
   #about-us {
-    height: 47em;
+    height: 40.5em;
   }
   #about-us h4 {
     padding-top: 1em;
@@ -544,7 +545,7 @@ header *, header *:before, header *:after {
     font-size: 0.9em;
   }
   #second-block .numblock {
-    height: 9em;
+    height: 8em;
   }
 
   #second-block .numblock h1 {
@@ -621,17 +622,16 @@ header *, header *:before, header *:after {
     padding: 1em 0.6em; 
   }
   #first-block h1{
-    font-size: 2.4em;
+    font-size: 2.7em;
   }
   #first-block h2{
-    font-size: 1.2em;
-    line-height: 1.1em;
+    font-size: 1.5em;
   }
   #first-block p {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   #about-us {
-    height: 42em;
+    height: 39em;
   }
   #about-us h4 {
     padding-top: 0.8em;
@@ -643,16 +643,16 @@ header *, header *:before, header *:after {
   }
   #about-us p {
     padding-right: 0;
-    font-size: 0.9em;
+    font-size: 1em;
   }
   #second-block .numblock {
     height: 9em;
   }
   #second-block .numblock h1 {
-    font-size: 3.7em;
+    font-size: 3.8em;
   }
   #second-block .numblock p{
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 
@@ -685,7 +685,7 @@ header *, header *:before, header *:after {
     height: 0.15em;
   }
   #about-us p {
-    font-size: 0.9em;
+    font-size: 1.1em;
     text-align: justify;
   }
   #second-block .numblock {
@@ -693,10 +693,10 @@ header *, header *:before, header *:after {
     height: 10em;
   }
   #second-block .numblock h1 {
-    font-size: 3.7em;
+    font-size: 4em;
   }
   #second-block .numblock p{
-    font-size: 0.9em;
+    font-size: 1.2em;
   } 
 }
 @media only screen and (min-width: 880px){

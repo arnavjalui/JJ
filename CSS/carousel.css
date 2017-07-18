@@ -148,7 +148,7 @@
 .carousel-control .icon-next,.carousel-control .icon-prev{
 	width:20px;
 	height:20px;
-	font-family:serif;
+	
 	line-height:1;
 }
 .carousel-control .icon-prev:before{content:'\2039'}
@@ -197,7 +197,7 @@
 .carousel-caption h2{
 	color: #fff;
     display: inline-block;
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 300;
     margin: 1px 0;
     max-width: 600px;
@@ -211,7 +211,7 @@
 .carousel-caption p {
     background: none repeat scroll 0 0 #00283a;
     color: #fff;
-	font-size: 1em;
+	font-size: 1.5em;
 	display: inline-block;
     max-width: 600px;
     padding: 10px 20px;
@@ -229,7 +229,7 @@
         top: 5%;
     }
     .carousel-caption h2{
-        font-size:0.9em;
+        font-size: 1.2em;
         padding: 2px 4px;
         -webkit-transition: -webkit-transform 0.35s background 0.35s;
         transition: transform 0.35s background 0.35s;
@@ -237,7 +237,7 @@
         transform: translate3d(0,20px,0);
     }
     .carousel-caption p{
-        font-size:0.65em;
+        font-size:0.75em;
         padding: 2px 4px;
         -webkit-transition: opacity 0.35s border 0.35s, -webkit-transform 0.35s;
         transition: opacity 0.35s, transform 0.35s;
@@ -263,7 +263,7 @@
         top:10%;
     }
     .carousel-caption h2{
-        font-size:1.2em;
+        font-size:1.4em;
         padding: 2px 4px;
         -webkit-transition: -webkit-transform 0.35s background 0.35s;
         transition: transform 0.35s background 0.35s;
@@ -271,7 +271,7 @@
         transform: translate3d(0,20px,0);
     }
     .carousel-caption p{
-        font-size:0.7em;
+        font-size:0.85em;
         padding: 2px 4px;
         -webkit-transition: opacity 0.35s border 0.35s, -webkit-transform 0.35s;
         transition: opacity 0.35s, transform 0.35s;
@@ -297,11 +297,11 @@
         top:5%;
     }
     .carousel-caption h2{
-        font-size:1.7em;
+        font-size:1.9em;
         padding: 4px 8px;
     }
     .carousel-caption p{
-        font-size:0.8em;
+        font-size:0.95em;
         padding: 4px 8px;
     }
     .carousel-inner>.item:hover h2{
