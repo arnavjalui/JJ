@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-	<head style="position:fixed;">
+	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width" />
 		<title>HJ</title>     
@@ -26,6 +26,7 @@
 		<style>
 		</style>
 	</head>
+    
     <!-- PHP INCLUDE STATEMENT FOR HEADER -->
 	<?php include('header.php') ?>
 

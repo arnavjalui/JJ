@@ -322,9 +322,13 @@ header nav ul li a {
   -moz-transition: all 0.20s linear 0s;
   -webkit-transition: all 0.20s linear 0s;
 }
-header nav ul li a:hover {
+header nav ul li a:hover{
   color: #00283a;
   background: #92c500;
+}
+header nav ul li a:active {
+  color: #00283a;
+  background: #92c500;    
 }
 header nav.nav-expanded {
   display: block;
@@ -394,12 +398,6 @@ header *, header *:before, header *:after {
   }
   header .navicon-button .navicon:after{
     top: -6px;
-  }
-  header nav ul li a{
-    border-top: 1px solid rgba(255,255,255,0.2);
-    padding: 0.5em 0;
-    font-size: 0.8em;
-    font-weight: 300;
   }
   #first-block{
     padding: 1em;
