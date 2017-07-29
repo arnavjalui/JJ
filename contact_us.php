@@ -129,6 +129,65 @@
 			#map-block iframe{
 			    pointer-events: none;
 			}
+
+			.texrbox {
+			    padding: 8px !important;
+			    margin-left: 10%;
+			    margin-right: 10%;
+			    height: auto;
+			    background: #f2f2f2;
+			    color: #333;
+			    border: none;
+			    border-bottom: 1px solid #999;
+			    border-radius: 1px;
+			    font-family: 'josefin_sansregular', sans-serif;
+			    font-size: 15px;
+			    outline: none;
+			    -webkit-transition: all 250ms ease-in;
+			    -moz-transition: all 250ms ease-in;
+			    -ms-transition: all 250ms ease-in;
+			    -o-transition: all 250ms ease-in;
+			    transition: all 250ms ease-in;
+			    width: 80%;
+			}
+			.texrbox:focus {
+			    background: #f9f9f9;
+			    border-bottom: 1px solid #333;
+			}
+			textarea {
+				resize: none;
+			}
+			.css_button{
+			     font-size: 16px;
+			     margin-top: 10px;
+			     margin-left: 10%;
+			     border-radius: 5px;
+			     border: solid 0px #14c714;
+			     padding: 9px 18px;
+			     cursor: pointer;
+			     font-family: Arial;
+			     color: #ffffff;
+			     box-shadow: 0px 10px 14px -7px #616174;
+			     background: -webkit-linear-gradient(90deg, #92c500 5%, #92c500 100%);
+			     background: -moz-linear-gradient(90deg, #92c50092c500 5%, #00FF00 100%);
+			     background: -ms-linear-gradient(90deg, #92c500 5%, #92c500 100%);
+			 }
+			 .css_button:hover{
+			     background: -webkit-linear-gradient(90deg, #749d00 5%, #749d00 100%);
+			     background: -moz-linear-gradient(90deg, #749d00 5%, #749d00 100%);
+			     background: -ms-linear-gradient(90deg, #749d00 5%, #749d00 100%);
+			     background: -o-linear-gradient(90deg, #749d00 5%, #749d00 100%);
+			 }
+			 .css_button:active{
+			     position: relative;
+			     top: 1px;
+			 }
+			 form p {
+			 	margin-left: 10%;
+			 	font-size: 1.2em;
+			 }
+
+
         </style>
 	</head>
 	
@@ -158,8 +217,22 @@
 		<div class="l-6">
 			<div class="text-block2">
 				<h3>Hit Us Up</h3>
-				<hr>
-
+				<hr style="margin: 0;">
+				<form action="sendmail.php" method="POST">
+					<p>Name<span style="color: red;">*</span></p>
+					<input class="texrbox" type="text" name="customer_name" required>
+					<br><br>
+					<p>Organization<span style="color: red;">*</span></p>
+					<input class="texrbox" type="text" name="customer_organization" required>
+					<p>E-mail<span style="color: red;">*</span></p>
+					<input class="texrbox" type="email" name="customer_email" required>
+					<p>Mobile<span style="color: red;">*</span></p>
+					<input class="texrbox" type="text" name="customer_mobile" required>
+					<p>Message<span style="color: red;">*</span></p>
+					<textarea class="texrbox" name="customer_message" required></textarea><br>
+					<button class="css_button" name="submit_contact_me">Contact Me</button>
+					<span style="margin-left: 20px;"><span style="color: red;">* </span>indicates required fields</soan>
+				</form>
 			</div>
 		</div>
 	</div>
