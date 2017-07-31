@@ -68,12 +68,14 @@
 				line-height: 1.5em;
 			}
 			#block-2 {
-				height: 41em;
-				background-color: #eaeaeb;
+				height: 47em;
+				background-color: #d0e2e1;
 			}
 			.text-block1 {
+				box-sizing: border-box;
 				background-image: url('https://s-media-cache-ak0.pinimg.com/originals/2e/d7/13/2ed713deb2051102506ea4e0f186eb3b.jpg');
-				padding: 7em 7em 7em 7em;
+				padding: 10em 7em 7em 7em;
+				height: 47em;
 				z-index: 98;
 			}
 			.text-block1 h1 {
@@ -117,20 +119,7 @@
 				text-align: center;
 				font-size: 2em;
 			}
-			#block-3 {
-				background-color: #92c500;
-			}
-			#block-3 h2 {
-				font-size: 2.5em;
-				font-weight: 200;
-				color: #fff;
-				text-align: center;
-			}
-			#map-block iframe{
-			    pointer-events: none;
-			}
-
-			.texrbox {
+			.text-block2 .texrbox {
 			    padding: 8px !important;
 			    margin-left: 10%;
 			    margin-right: 10%;
@@ -150,14 +139,14 @@
 			    transition: all 250ms ease-in;
 			    width: 80%;
 			}
-			.texrbox:focus {
+			.text-block2 .texrbox:focus {
 			    background: #f9f9f9;
 			    border-bottom: 1px solid #333;
 			}
-			textarea {
+			.text-block2 textarea {
 				resize: none;
 			}
-			.css_button{
+			.text-block2 .contact_button{
 			     font-size: 16px;
 			     margin-top: 10px;
 			     margin-left: 10%;
@@ -172,21 +161,36 @@
 			     background: -moz-linear-gradient(90deg, #92c50092c500 5%, #00FF00 100%);
 			     background: -ms-linear-gradient(90deg, #92c500 5%, #92c500 100%);
 			 }
-			 .css_button:hover{
+			 .text-block2 .contact_button:hover{
 			     background: -webkit-linear-gradient(90deg, #749d00 5%, #749d00 100%);
 			     background: -moz-linear-gradient(90deg, #749d00 5%, #749d00 100%);
 			     background: -ms-linear-gradient(90deg, #749d00 5%, #749d00 100%);
 			     background: -o-linear-gradient(90deg, #749d00 5%, #749d00 100%);
 			 }
-			 .css_button:active{
+			 .text-block2 .contact_button:active{
 			     position: relative;
 			     top: 1px;
 			 }
-			 form p {
+			 .text-block2 form p {
 			 	margin-left: 10%;
 			 	font-size: 1.2em;
 			 }
-
+			 .text-block2 span {
+			 	color: red;
+			 	font-size: 1.2em;
+			 }
+			 #block-3 {
+				background-color: #92c500;
+			}
+			#block-3 h2 {
+				font-size: 2.5em;
+				font-weight: 200;
+				color: #fff;
+				text-align: center;
+			}
+			#map-block iframe{
+			    pointer-events: none;
+			}
 
         </style>
 	</head>
@@ -222,16 +226,16 @@
 					<p>Name<span style="color: red;">*</span></p>
 					<input class="texrbox" type="text" name="customer_name" required>
 					<br><br>
-					<p>Organization<span style="color: red;">*</span></p>
+					<p>Organization<span>*</span></p>
 					<input class="texrbox" type="text" name="customer_organization" required>
-					<p>E-mail<span style="color: red;">*</span></p>
+					<p>E-mail<span>*</span></p>
 					<input class="texrbox" type="email" name="customer_email" required>
-					<p>Mobile<span style="color: red;">*</span></p>
+					<p>Mobile<span>*</span></p>
 					<input class="texrbox" type="text" name="customer_mobile" required>
-					<p>Message<span style="color: red;">*</span></p>
+					<p>Message<span>*</span></p>
 					<textarea class="texrbox" name="customer_message" required></textarea><br>
-					<button class="css_button" name="submit_contact_me">Contact Me</button>
-					<span style="margin-left: 20px;"><span style="color: red;">* </span>indicates required fields</soan>
+					<button class="contact_button" name="submit_contact_me">Contact Me</button>
+					<span style="margin-left: 20px; color: #000;"><span>* </span>indicates required fields</span>
 				</form>
 			</div>
 		</div>
