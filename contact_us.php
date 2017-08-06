@@ -5,15 +5,20 @@
 		<meta name="viewport" content="width=device-width" />
 		<title>HJ</title>     
 
+		<!-- FONT AWESOME ICONS LINK -->
+        <link href="css/font-awesome.css" rel="stylesheet"> 
+        
+
 		<!-- CSS LINK -->
 		<link rel="stylesheet" type="text/css" href="CSS/main_css2.css">
+		<link rel="stylesheet" href="CSS/carousel.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-		<!-- MFG ICONS LINK -->
-		<link rel="stylesheet" type="text/css" href="CSS/mfglabs_iconset.css">
+		<!-- CUSTOM STYLE -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-		<!-- GOOGLE FONTS IMPORT -->
-        <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">    <!-- Font Option 1 -> Advent Pro-->
-        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">    <!-- Font Option 2 -> Dosis , if option 1 does not look good-->
+        <!-- GOOGLE FONTS IMPORT -->
         <link href="https://fonts.googleapis.com/css?family=Forum" rel="stylesheet">
 
         <style type="text/css">
@@ -188,9 +193,7 @@
 				color: #fff;
 				text-align: center;
 			}
-			#map-block iframe{
-			    pointer-events: none;
-			}
+			
 
         </style>
 	</head>
@@ -212,10 +215,10 @@
 			<div class="text-block1">
 				<h1>Haresh Jasani.</h1>
 				<hr>
-				<p><i class="icon-placepin"> </i>Address</p>
-				<p><i class="icon-placepin"> </i>Address</p>
-				<a class="link-line link-invert" href="mailto:jahanvijasani.46@gmail.com"><i class="icon-mail"></i>   jahanvijasani.46gmail.com</a>
-				<p><span>M</span> 9769983936 | <span>M</span> 9769983936</p>
+				<p><i class="fa fa-map-marker"></i> Address</p>
+				<p><i class="fa fa-map-marker"></i> Address</p>
+				<a class="link-line link-invert" href="mailto:jahanvijasani.46@gmail.com"><i class="fa fa-envelope"></i>   jahanvijasani.46gmail.com</a>
+				<p><i class="fa fa-phone"></i> 9769983936 | <i class="fa fa-phone"></i> 9769983936</p>
 			</div>
 		</div>
 		<div class="l-6">
@@ -234,7 +237,7 @@
 					<input class="texrbox" type="text" name="customer_mobile" required>
 					<p>Message<span>*</span></p>
 					<textarea class="texrbox" name="customer_message" required></textarea><br>
-					<button class="contact_button" name="submit_contact_me">Contact Me</button>
+					<button class="contact_button" name="submit_contact_me">Contact Us</button>
 					<span style="margin-left: 20px; color: #000;"><span>* </span>indicates required fields</span>
 				</form>
 			</div>
@@ -246,5 +249,4 @@
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15082.402679591443!2d72.89876327023337!3d19.081287193356143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c631dcb145d9%3A0xed2e7c2011a11141!2sGhatkopar+East%2C+Mumbai%2C+Maharashtra!5e0!3m2!1sen!2sin!4v1499403901430" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 	</div>
-	</body>
-</html>
+	

@@ -1,41 +1,131 @@
     <!--FOOTER-->
     <footer>
-    		<div class="footer-text">
-        		<div class="l-3"  style="font-size: 1.17em;">
-        			<h2>About Us</h2>
-        			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p><br>
-        			<div class="contact-footer">
-            			<h2>Contact Us</h2>
-            			<li>Phone: 9769983936</li>
-            			<li>Email: jahanvijasani@gmail.com</li>
-        			</div>
-        		</div>
-        		<div class="l-2" style="font-size: 1.17em;">
-        			<h2>Popular Links</h2>
-        			<div class="footer-links">
-        				<li><i class="icon-play"></i><a href="#">Home</a></li>
-        				<li><i class="icon-play"></i><a href="#">About Us</a></li>
-        				<li><i class="icon-play"></i><a href="#">Our Work</a></li>
-        				<li><i class="icon-play"></i><a href="#">Services</a></li>
-        			</div>
-        		</div>
-        		<div class="l-3" style="font-size: 1.17em;">
-        			<h2>Recent Projects</h2>
-        			<p>Project-1</p>
-        			<p>Project-2</p>
-        			<p>Project-3</p>
-        			<p>Project-4</p>
-        			<p>Project-5</p>
-        			<p>Project-6</p>
-        			<h2>See All Our Projects</h2>
-        		</div>
-        		<div class="l-4"  style="font-size: 1.17em;">
-        			<h2>Location</h2>
-    				<div id="map-block">  	  
-    					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15082.402679591443!2d72.89876327023337!3d19.081287193356143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c631dcb145d9%3A0xed2e7c2011a11141!2sGhatkopar+East%2C+Mumbai%2C+Maharashtra!5e0!3m2!1sen!2sin!4v1499403901430" width="350" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-    				</div>
-        		</div>
+		<div class="footer-text">
+    		<div class="l-3">
+    			<h2>ABOUT US</h2>
+    			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p><br>
+    			
     		</div>
+    		<div class="l-3">
+    			<h2>POPULAR LINKS</h2>
+    			<div class="footer-links">
+    				<li><i class="fa fa-angle-double-right" style="font-size: 25px;"></i><a href="#">Home</a></li>
+    				<li><i class="fa fa-angle-double-right" style="font-size: 25px;"></i><a href="#">About Us</a></li>
+    				<li><i class="fa fa-angle-double-right" style="font-size: 25px;"></i><a href="#">Our Work</a></li>
+    				<li><i class="fa fa-angle-double-right" style="font-size: 25px;"></i><a href="#">Services</a></li>
+                    <li><i class="fa fa-angle-double-right" style="font-size: 25px;"></i><a href="#">Contact</a></li>
+    			</div>
+    		</div>
+    		<div class="l-3">
+                <div class="contact-footer">
+                    <h2>CONTACT US</h2>
+                    <h5><i class="fa fa-phone"></i>         Phone</h5>
+                    <p>9769983936</p>
+                    <h5><i class="fa fa-envelope"></i>         Email</h5>
+                    <p><a href="mailto:jahanvijasani.46@gmail.com"> jahanvijasani.46@gmail.com</a></p>
+                </div>
+    		</div>
+    		<div class="l-3">
+    			<h2>RECENT PROJECTS</h2>
+                
+                    <div class="gallery">
+                    <div class="gallery_content clearfix">
+                    <div class="card effect__hover">
+                    <div class="card__front">
+                    <span class="card__text">front</span>
+                    </div>
+                    <div class="card__back">
+                    <span class="card__text">back</span>
+                    </div>
+                    </div><!-- /card -->
+                    <div class="card effect__hover">
+                    <div class="card__front">
+                    <span class="card__text">front</span>
+                    </div>
+                    <div class="card__back">
+                    <span class="card__text">back</span>
+                    </div>
+                    </div><!-- /card -->
+                    <div class="card effect__hover">
+                    <div class="card__front">
+                    <span class="card__text">front</span>
+                    </div>
+                    <div class="card__back">
+                    <span class="card__text">back</span>
+                    </div>
+                    </div>
+                    </div><!-- /card -->
+                    </div><!-- /gallery -->
+                    <div class="gallery">
+                    <div class="gallery_content clearfix">
+                    <div class="card effect__hover">
+                    <div class="card__front">
+                    <span class="card__text">front</span>
+                    </div>
+                    <div class="card__back">
+                    <span class="card__text">back</span>
+                    </div>
+                    </div><!-- /card -->
+                    <div class="card effect__hover">
+                    <div class="card__front">
+                    <span class="card__text">front</span>
+                    </div>
+                    <div class="card__back">
+                    <span class="card__text">back</span>
+                    </div>
+                    </div><!-- /card -->
+                    <div class="card effect__hover">
+                    <div class="card__front">
+                    <span class="card__text">front</span>
+                    </div>
+                    <div class="card__back">
+                    <span class="card__text">back</span>
+                    </div>
+                    </div>
+                    </div><!-- /card -->
+                    </div><!-- /gallery -->
+                    <div class="gallery">
+                    <div class="gallery_content clearfix">
+                    <div class="card effect__hover">
+                    <div class="card__front">
+                    <span class="card__text">front</span>
+                    </div>
+                    <div class="card__back">
+                    <span class="card__text">back</span>
+                    </div>
+                    </div><!-- /card -->
+                    <div class="card effect__hover">
+                    <div class="card__front">
+                    <span class="card__text">front</span>
+                    </div>
+                    <div class="card__back">
+                    <span class="card__text">back</span>
+                    </div>
+                    </div><!-- /card -->
+                    <div class="card effect__hover">
+                    <div class="card__front">
+                    <span class="card__text">front</span>
+                    </div>
+                    <div class="card__back">
+                    <span class="card__text">back</span>
+                    </div>
+                    </div>
+                    </div><!-- /card -->
+                    </div><!-- /gallery -->
+            </div>
+        </div>
+        <div class="bottom-tab">
+            <div class="l-6 bottom-left">
+                <h3>SIGN UP FOR VIEWING OUR ALBUMS !</h3>
+            </div>
+            <div class="l-6 bottom-right">
+                <form action="#" method="post">
+                <input type="email" placeholder="Enter your email..." name="email" required="">
+                <input type="submit" value="Submit">
+            </form>
+            </div>
+        </div>
+        <p class="copy-right">&copy 2017 Haresh Jasani. All rights reserved | Design by <a href="#">Jahanvi Jasani & Arnav Jalui</a></p>
     </footer>
     <!--FOOTER END-->
 </body>
