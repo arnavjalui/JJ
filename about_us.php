@@ -6,7 +6,7 @@
 		<title>HJ</title>     
 
 		<!-- CSS LINK -->
-		<link rel="stylesheet" type="text/css" href="CSS/main_css2.css">
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
 
 		<!-- GOOGLE FONTS IMPORT -->
         <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">    <!-- Font Option 1 -> Advent Pro-->
