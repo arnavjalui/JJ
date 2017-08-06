@@ -23,6 +23,9 @@
                     <p>9769983936</p>
                     <h5><i class="fa fa-envelope"></i>         Email</h5>
                     <p><a href="mailto:jahanvijasani.46@gmail.com"> jahanvijasani.46@gmail.com</a></p>
+                    <h5><i class="fa fa-map-marker"></i>         Location</h5>
+                    <p>XYZ</p>
+                    <p>XYZ</p>
                 </div>
     		</div>
     		<div class="l-3">
